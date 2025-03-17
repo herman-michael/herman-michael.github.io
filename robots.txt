@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: herman-michael.github.io/sitemap.xml
+Sitemap: https://herman-michael.github.io/sitemap.xml

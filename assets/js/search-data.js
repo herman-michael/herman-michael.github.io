@@ -3,8 +3,8 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "about",
+    id: "nav-strong-mayank-strong-mittal",
+    title: "<strong>Mayank</strong> Mittal",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
         },{id: "nav-repositories",
           title: "repositories",
           description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
@@ -43,13 +36,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
-          },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
           },
         },{id: "nav-people",
           title: "people",
@@ -369,6 +355,39 @@ ninja.data = [{
           window.location.href = "/blog/2020/twitter/";
         
       },
+    },{id: "post-useful-tips-for-ros-users",
+      
+        title: "Useful Tips for ROS Users",
+      
+      description: "Getting past a beginner&#39;s understanding of ROS quickly and properly.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2017/ros-tips/";
+        
+      },
+    },{id: "post-robotics-club-why-it-exists",
+      
+        title: "Robotics Club: Why it exists?",
+      
+      description: "A few important reasons why student community groups help in moulding a scientific mind.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2017/robotics-club/";
+        
+      },
+    },{id: "post-hello-world",
+      
+        title: "Hello World!",
+      
+      description: "A mandatory post where I introduce myself and the purpose of the blog section.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2017/hello-world/";
+        
+      },
     },{id: "post-a-post-with-disqus-comments",
       
         title: "a post with disqus comments",
@@ -440,11 +459,110 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "news-selected-for-boeing-s-univeristy-relation-program-abhyast",
+          title: 'Selected for Boeing’s Univeristy Relation Program, Abhyast',
+          description: "",
+          section: "News",},{id: "news-secured-first-runners-up-at-save-2017-competition",
+          title: 'Secured first runners-up at SAVe-2017 competition',
+          description: "",
+          section: "News",},{id: "news-awarded-daad-wise-scholarship-for-an-internship-in-germany",
+          title: 'Awarded DAAD WISE Scholarship for an internship in Germany',
+          description: "",
+          section: "News",},{id: "news-working-in-this-summer-with-prof-wolfram-burgard-and-abhinav-valada",
+          title: 'Working in this summer with Prof. Wolfram Burgard and Abhinav Valada',
+          description: "",
+          section: "News",},{id: "news-co-organizing-the-course-autonomous-navigation-at-iit-kanpur",
+          title: 'Co-Organizing the course Autonomous Navigation at IIT Kanpur',
+          description: "",
+          section: "News",},{id: "news-awarded-science-and-technology-excellence-award-at-iit-kanpur",
+          title: 'Awarded Science and Technology Excellence Award at IIT Kanpur',
+          description: "",
+          section: "News",},{id: "news-received-siic-student-innovation-award-and-sri-binay-kumar-memorial-award-at-51st-convocation-iit-kanpur-for-my-work-on-design-and-development-of-autonomous-underwater-vehicle",
+          title: 'Received ‘SIIC Student Innovation Award’ and ‘Sri. Binay Kumar Memorial Award’ at 51st...',
+          description: "",
+          section: "News",},{id: "news-our-paper-on-vision-based-autonomous-landing-in-catastrophe-struck-environments-is-accepted-for-iros-18-workshop-on-vision-based-drones-what-s-next",
+          title: 'Our paper on ‘Vision-based Autonomous Landing in Catastrophe-Struck Environments’ is accepted for IROS’18...',
+          description: "",
+          section: "News",},{id: "news-started-masters-in-robotics-systems-and-controls-rsc-at-eth-zurich",
+          title: 'Started Masters in Robotics, Systems, and Controls (RSC) at ETH Zurich',
+          description: "",
+          section: "News",},{id: "news-working-at-robotic-systems-lab-on-deploying-rl-algorithms-into-robots",
+          title: 'Working at Robotic Systems Lab on deploying RL algorithms into robots',
+          description: "",
+          section: "News",},{id: "news-presented-a-seminar-on-hierarchical-rl-for-the-deep-rl-course-slides-available-here",
+          title: 'Presented a seminar on Hierarchical RL for the Deep RL course (slides available...',
+          description: "",
+          section: "News",},{id: "news-i-will-be-interning-with-the-intelligence-control-team-at-nnaisense-in-lugano-switzerland-from-septmember-onwards",
+          title: 'I will be interning with the Intelligence Control team at NNAISENSE in Lugano,...',
+          description: "",
+          section: "News",},{id: "news-our-paper-on-vision-based-autonomous-uav-navigation-and-landing-for-urban-search-and-rescue-from-my-internship-at-autonomous-intelligent-systems-university-of-freiburg-is-accepted-to-isrr-2019",
+          title: 'Our paper on ‘Vision-Based Autonomous UAV Navigation and Landing for Urban Search and...',
+          description: "",
+          section: "News",},{id: "news-started-my-internship-with-the-intelligent-automation-team-at-nnaisense-lugano",
+          title: 'Started my internship with the Intelligent Automation team at NNAISENSE, Lugano!',
+          description: "",
+          section: "News",},{id: "news-our-paper-on-learning-camera-miscalibration-detection-from-my-work-at-autonomous-systems-lab-eth-zurich-is-accepted-to-icra-2020",
+          title: 'Our paper on ‘Learning Camera Miscalibration Detection’ from my work at Autonomous Systems...',
+          description: "",
+          section: "News",},{id: "news-excited-to-start-my-master-thesis-with-animesh-garg-at-pair-lab-university-of-toronto",
+          title: 'Excited to start my master thesis with Animesh Garg at PAIR Lab, University...',
+          description: "",
+          section: "News",},{id: "news-excited-to-start-as-a-deep-learning-r-amp-amp-d-engineer-at-nvidia",
+          title: 'Excited to start as a Deep Learning R&amp;amp;amp;D Engineer at NVIDIA!',
+          description: "",
+          section: "News",},{id: "news-joined-marco-hutter-s-group-at-eth-zurich-as-a-phd-student",
+          title: 'Joined Marco Hutter’s group at ETH Zurich as a PhD student',
+          description: "",
+          section: "News",},{id: "news-our-paper-on-a-collision-free-mpc-for-whole-body-dynamic-locomotion-and-manipulation-is-accepted-to-icra-2022",
+          title: 'Our paper on ‘A Collision-Free MPC for Whole-Body Dynamic Locomotion and Manipulation’ is...',
+          description: "",
+          section: "News",},{id: "news-our-papers-on-articulated-object-and-in-hand-manipulation-are-accepted-to-iros-2022-robot",
+          title: 'Our papers on articulated object and in-hand manipulation are accepted to IROS 2022...',
+          description: "",
+          section: "News",},{id: "news-our-paper-on-orbit-a-unified-simulation-framework-for-interactive-robot-learning-environments-is-accepted-to-ieee-ra-l-and-will-be-presented-at-iros-2023",
+          title: 'Our paper on ‘Orbit: A Unified Simulation Framework for Interactive Robot Learning Environments’...',
+          description: "",
+          section: "News",},{id: "news-four-papers-task-symmetry-in-rl-pedipulation-semantic-navigation-and-surgical-benchmark-accepted-to-icra-2024",
+          title: 'Four papers (task symmetry in RL, pedipulation, semantic navigation and surgical benchmark) accepted...',
+          description: "",
+          section: "News",},{id: "news-our-work-on-orbit-has-evolved-into-isaac-lab-which-is-now-officially-supported-by-nvidia-a-huge-thank-to-the-team-and-collaborators-to-make-this-possible",
+          title: 'Our work on Orbit has evolved into Isaac Lab, which is now officially...',
+          description: "",
+          section: "News",},{id: "news-gave-a-talk-at-the-rss-workshop-on-data-generation-for-robotics-on-how-simulation-based-scaling-can-aid-in-learning-robust-skills",
+          title: 'Gave a talk at the RSS Workshop on Data Generation for Robotics on...',
+          description: "",
+          section: "News",},{id: "news-gave-a-talk-at-the-iwials-2024-on-isaac-lab-and-learning-robust-legged-mobile-manipulation",
+          title: 'Gave a talk at the IWIALS 2024 on Isaac Lab and learning robust...',
+          description: "",
+          section: "News",},{id: "news-our-paper-on-perceptive-pedipulation-with-local-collision-avoidance-is-accepted-to-ichr-2024",
+          title: 'Our paper on ‘Perceptive Pedipulation with Local Collision Avoidance’ is accepted to ICHR...',
+          description: "",
+          section: "News",},{id: "news-our-paper-on-guided-reinforcement-learning-for-robust-multi-contact-loco-manipulation-is-accepted-for-an-oral-presentation-at-corl-2024-tada",
+          title: 'Our paper on ‘Guided Reinforcement Learning for Robust Multi-Contact Loco-Manipulation’ is accepted for...',
+          description: "",
+          section: "News",},{id: "news-two-papers-on-quadrupedal-mobile-manipulation-for-whole-body-end-effector-pose-tracking-and-dynamic-object-pushing-accepted-to-icra-2025",
+          title: 'Two papers on quadrupedal mobile manipulation for whole-body end-effector pose tracking and dynamic...',
+          description: "",
+          section: "News",},{id: "projects-learning-locomotion-manipulation-control",
+          title: 'Learning Locomotion-Manipulation Control',
+          description: "Semester Thesis",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/0_deeprl_alma/";
+            },},{id: "projects-predicting-landing-sites-from-aerial-images",
+          title: 'Predicting Landing Sites from Aerial Images',
+          description: "DAAD Research Internship",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_deeplanding/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-autonomous-underwater-vehicle-auv",
+          title: 'Autonomous Underwater Vehicle (AUV)',
+          description: "Funded by DoRD, IIT Kanpur",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_auviitk/";
             },},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",

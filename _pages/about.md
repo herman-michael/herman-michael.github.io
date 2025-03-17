@@ -1,51 +1,34 @@
 ---
 layout: about
+title: about
 permalink: /
-title: <strong>Mayank</strong> Mittal
-description: Graduate Student | ETH Zurich | NVIDIA
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic3.jpg
-  address: #mention address
+  image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
+  more_info: >
+    <p>555 your office number</p>
+    <p>123 your address street</p>
+    <p>Your City, State 12345</p>
 
-news: true
-social: true
-years: [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018]
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 ---
 
-I am currently a *final-year* PhD student at [ETH Zurich](https://ethz.ch/en.html), advised by [Marco Hutter](http://www.rsl.ethz.ch/the-lab/people/person-detail.html?persid=121911), and a Research Scientist at [NVIDIA](https://www.nvidia.com/en-us/research/).
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-My research explores how robots can learn to reason about their bodies and surroundings to achieve more adaptive and
-versatile behaviors. This includes whole-body control for mobile manipulation, reinforcement learning for contact-rich tasks, and integrating multi-modal sensing to enhance decision-making.
+Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-<!-- Over the span of my career, I have had the opportunity to work with some amazing robotic groups
-on many different robotic platforms.
-I have been a visiting intern at the [Vector Institute](https://vectorinstitute.ai/),
-a research intern at [NNAISENSE](https://nnaisense.com/), and a part-time research engineer
-at [ETH Zurich](https://ethz.ch/en.html). During my Bachelor's at [IIT Kanpur](http://www.iitk.ac.in/ee/), I worked
-at University of Freiburg, Germany with [Abhinav Valada](http://www2.informatik.uni-freiburg.de/~valada/) and [Wolfram Burgard](http://www2.informatik.uni-freiburg.de/~burgard/).
-I also founded the [AUV-IITK](https://auv-iitk.github.io/#/landing-page) team. -->
-
-If you have any questions or would like to discuss ideas, feel free to reach out via
-[email](mailto:mittalma@ethz.ch)!
-
-<!-- _Shameless promotion:_  
-For undergrad/graduate students at [ETH Zurich](https://ethz.ch/en.html): In case you are looking for semester projects or master thesis, please check [here](https://rsl.ethz.ch/education-students.html) for available projects with me and other amazing people in our group! -->
-
-<div class="post">
-
-  {% if page.news %}
-    {% include news.html %}
-  {% endif %}
-
-</div>
-
----
-
-{: #publications}
-## __selected publications__
-
-{% for y in page.years %}
-  {% bibliography -f papers -q @*[year={{y}}]* %}
-{% endfor %}
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.

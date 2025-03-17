@@ -1,65 +1,34 @@
-# Adams:
-#     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"adams":
+  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
+    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
-Valada:
-  url: http://www2.informatik.uni-freiburg.de/~valada/
+"podolsky":
+  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
+    url: https://en.wikipedia.org/wiki/Boris_Podolsky
 
-Burgard:
-  url: http://www2.informatik.uni-freiburg.de/~burgard/
+"rosen":
+  - firstname: ["Nathan", "N."]
+    url: https://en.wikipedia.org/wiki/Nathan_Rosen
 
-Mohan:
-  url: https://www.linkedin.com/in/rohit-mohan-508112142/
+"bach":
+  - firstname: ["Johann Sebastian", "J. S."]
+    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
 
-Siegwart:
-  url: https://mavt.ethz.ch/the-department/people/person-detail.Mjk5ODE=.TGlzdC81NTMsLTY5MzYxOTMw.html
+  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
+    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 
-Cadena:
-  url: http://n.ethz.ch/~cesarc/
+"przibram":
+  - firstname: ["Karl"]
+    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
 
-Petrov:
-  url: https://www.linkedin.com/in/aleksandar-petrov/
+"schrodinger":
+  - firstname: ["Erwin"]
+    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
 
-Suri:
-  url: https://www.linkedin.com/in/rohit-suri-0966b0b3/
+"lorentz":
+  - firstname: ["Hendrik Antoon"]
+    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
 
-Cramariuc:
-  url: https://asl.ethz.ch/the-lab/people/person-detail.MjMxMjQw.TGlzdC8xNTg0LDEyMDExMzk5Mjg=.html
-
-Gallieri:
-  url: https://ch.linkedin.com/in/marco-gallieri-166a0421
-
-Quaglino:
-  url: https://ch.linkedin.com/in/aqua83
-
-Salehian:
-  url: https://ch.linkedin.com/in/seyed-sina-mirrazavi-salehian-11772856
-
-Koutnik:
-  url: http://www.idsia.ch/~koutnik
-
-Garg:
-  url: http://animesh.garg.tech/
-
-Hutter:
-  url: https://rsl.ethz.ch/
-
-Handa:
-  url: https://ankurhanda.github.io/
-
-Allshire:
-  url: https://allshire.org/
-
-Farshidian:
-  url: https://scholar.google.ch/citations?user=ciragesAAAAJ&hl=en
-
-Rudin:
-  url: https://ch.linkedin.com/in/nikita-rudin-bb3199121
-
-State:
-  url: https://ca.linkedin.com/in/gavstate
-
-Portela:
-  url: https://scholar.google.com/citations?user=y3BWpCUAAAAJ&hl=en
-
-Tsagarakis:
-  url: https://www.iit.it/it/people-details/-/people/nikos-tsagarakis
+"planck":
+  - firstname: ["Max"]
+    url: https://en.wikipedia.org/wiki/Max_Planck

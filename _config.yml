@@ -2,20 +2,14 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+name: Mayank Mittal
+email: mittalma@ethz.ch
+description: > # this means to ignore newlines until "url:"
+  A simple website for a Roboticist.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: herman-michael.github.io # the base hostname & protocol for your site
@@ -23,16 +17,15 @@ baseurl:   # the subpath of your site, e.g. /blog/
 last_updated: # leave blank if you don't want to display last updated
 
 # google-analytics
-google_analytics: UA-92958928-1
-repo: http://github.com/Mayankm96
+google_analytics:
+repo: http://github.com/herman-michael
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-github_username: Mayankm96 # put your github username
-twitter_username: mayankm155 # put your twitter username
-linkedin_username: mayankm-0096 # put your linkedin username
-scholar_authorid: iVXG-IkAAAAJ # put your google scholar author id
+github_username: herman-michael # put your github username
+linkedin_username: herman-michael # put your linkedin username
+scholar_authorid: QYezVE0AAAAJ # put your google scholar author id
 contact_note: #  You can even add a little note about which of these is the best way to reach you.
 
 # -----------------------------------------------------------------------------

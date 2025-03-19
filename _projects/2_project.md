@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
+title: project 2
 description: with background image
 img: assets/img/12.jpg
-importance: 1
-category: work
+importance: 2
+category: academic
 related_publications: true
 ---
 

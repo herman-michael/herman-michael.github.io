@@ -141,8 +141,15 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=QYezVE0AAAAJ", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-huggingface',
+        title: 'Huggingface',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://huggingface.co/herman-michael", "_blank");
+        },
+      },{
+        id: 'social-tableau',
+        title: 'Tableau',
         section: 'Socials',
         handler: () => {
           window.open("https://public.tableau.com/app/profile/herman.michael/vizzes", "_blank");

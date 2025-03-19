@@ -145,7 +145,7 @@ ninja.data = [{
         title: 'Custom_social',
         section: 'Socials',
         handler: () => {
-          window.open("https://huggingface.co/herman-michael", "_blank");
+          window.open("https://public.tableau.com/app/profile/herman.michael/vizzes", "_blank");
         },
       },{
       id: 'light-theme',

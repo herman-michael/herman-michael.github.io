@@ -8,6 +8,16 @@ category: academic
 related_publications: true
 ---
 
+<!-- Academic Projects
+1. Systematic mapping and survey of sun sensor calibration algorithms
+2. Publicly available synthetic dataset and simulation for digital sun sensors
+3. Sparse submanifold convolutional neural network for digital sun sensor calibration
+
+Personal Projects
+1. Sun sensor experimental rig and dataset
+2. Hyperspectral camera
+3. Lensless microscope -->
+
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.

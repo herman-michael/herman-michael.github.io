@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Sun Sensor Calibration Algorithm Survey
+description: Systematic mapping and survey of sun sensor calibration algorithms
 img: assets/img/12.jpg
 importance: 1
 category: academic

@@ -58,8 +58,8 @@ ninja.data = [{
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
-            },},{id: "projects-project-1",
-          title: 'project 1',
+            },},{id: "projects-project-2",
+          title: 'project 2',
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";

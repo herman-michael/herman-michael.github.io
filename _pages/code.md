@@ -10,8 +10,10 @@ pretty_table: true
 
 # Code
 
+<span style="font-size: 0.9em">
+
 | Date       | Project                                             | Package                    | GitHub                                                  |
-| :--------- | :-------------------------------------------------- | :------------------------: | ----------------------: |
+|:----------:| :-------------------------------------------------- | :------------------------- |:----------------------:|
 | Dec, 2020  | Federated learning via posterior averaging          | fedpa                      | [GitHub](https://github.com/alshedivat/fedpa)           |
 | Apr, 2019  | Consistent zero-shot NMT                            | consistent_zero_shot_nmt   | [GitHub](https://github.com/alshedivat/consistent_zero_shot_nmt) |
 | Jul, 2018  | Learning reciprocity in multi-agent systems         | lola                       | [GitHub](https://github.com/alshedivat/lola)            |
@@ -20,3 +22,5 @@ pretty_table: true
 | Sep, 2016  | HMMs with nonparametric emissions                   | nphmm                      | [GitHub](https://github.com/alshedivat/nphmm)           |
 | May, 2016  | Architectures Deep In Output Space                  | adios                      | [GitHub](https://github.com/alshedivat/adios)           |
 | Jan, 2015  | Supervised Transfer Sparse Coding                   | stsc                       | [GitHub](https://github.com/alshedivat/stsc)            |
+
+</span>

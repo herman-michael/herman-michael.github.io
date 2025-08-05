@@ -23,4 +23,7 @@ pretty_table: true
 | May, 2016  | Architectures Deep In Output Space                  | adios                      | [GitHub](https://github.com/alshedivat/adios)           |
 | Jan, 2015  | Supervised Transfer Sparse Coding                   | stsc                       | [GitHub](https://github.com/alshedivat/stsc)            |
 
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/herman-michael/DSS-CNN" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-show-count="true" aria-label="Star herman-michael/DSS-CNN on GitHub">Star</a>
+
 </span>

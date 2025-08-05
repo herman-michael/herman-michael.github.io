@@ -8,23 +8,17 @@ nav_order: 3
 pretty_table: true
 ---
 
-<table id="table"></table>
-
-<script>
-  $(function() {
-    $('#table').bootstrapTable({
-      columns: [
-        { field: 'date', title: 'Date' },
-        { field: 'project', title: 'Project' },
-        { field: 'package', title: 'Package' },
-        {
-          field: 'github',
-          title: 'Github',
-          formatter: function(value) { return value; }
-        },
-        { field: 'doi', title: 'DOI' }
-      ],
-      url: "{{ '/assets/json/table_data.json' | relative_url }}"
-    });
-  });
-</script>
+<table
+  id="table"
+  data-toggle="table"
+  data-url="{{ '/assets/json/table_data.json' | relative_url }}">
+  <thead>
+    <tr>
+      <th data-field="date">Date</th>
+      <th data-field="project">Project</th>
+      <th data-field="package">Package</th>
+      <th data-field="github">Github</th>
+      <th data-field="doi">DOI</th>
+    </tr>
+  </thead>
+</table>

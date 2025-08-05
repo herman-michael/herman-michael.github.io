@@ -9,16 +9,16 @@ pretty_table: true
 ---
 
 <table
-    id="table"
-    data-toggle="table"
-    data-url="{{ '/assets/json/table_data.json' | relative_url }}"
-    data-escape="false">
+  id="table"
+  data-toggle="table"
+  data-url="{{ '/assets/json/table_data.json' | relative_url }}"
+  data-escape="false">
   <thead>
     <tr>
       <th data-field="date">Date</th>
       <th data-field="project">Project</th>
       <th data-field="package">Package</th>
-      <th data-field="github">Github</th>
+      <th data-field="github" data-escape="false">Github</th>
       <th data-field="doi">DOI</th>
     </tr>
   </thead>

@@ -8,7 +8,11 @@ nav_order: 3
 pretty_table: true
 ---
 
-<table id="table" data-toggle="table" data-url="{{ '/assets/json/table_data.json' | relative_url }}">
+<table
+    id="table"
+    data-toggle="table"
+    data-url="{{ '/assets/json/table_data.json' | relative_url }}"
+    data-escape="false">
   <thead>
     <tr>
       <th data-field="date">Date</th>

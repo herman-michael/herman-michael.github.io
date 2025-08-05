@@ -28,25 +28,19 @@ table {
   th {
     font-size: 1rem;
     padding: 1px 1rem 1px 0;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #dee2e6; // optional: keeps horizontal lines
+    border-bottom: 1px solid #dee2e6;
   }
 
   th {
     font-weight: bold;
   }
-}
 
-a,
-table.table a {
-  color: var(--global-theme-color);
-
-  &:hover {
-    color: var(--global-theme-color);
-    text-decoration: underline;
-  }
-
-  &:hover:after :not(.nav-item.dropdown) {
-    width: 100%;
-  }
+  // Optional: remove outer border if needed
+  border-left: none;
+  border-right: none;
 }
 
 .table-dark {

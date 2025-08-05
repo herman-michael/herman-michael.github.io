@@ -52,18 +52,6 @@
 
     <!-- JavaScripts -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        var table = document.getElementById('table');
-        if (table) {
-          table.addEventListener('load-success.bs.table', function () {
-            if (window.GitHubButton && window.GitHubButton.renderAll) {
-              window.GitHubButton.renderAll();
-            }
-          });
-        }
-      });
-    </script>
     {% include scripts.liquid %}
   </body>
 </html>

@@ -24,14 +24,7 @@ pretty_table: true
         },
         { field: 'doi', title: 'DOI' }
       ],
-      url: '/assets/json/table_data.json'
-    });
-
-    // Re-render GitHub buttons after table loads
-    $('#table').on('load-success.bs.table', function () {
-      if (window.GitHubButton && window.GitHubButton.renderAll) {
-        window.GitHubButton.renderAll();
-      }
+      url: "{{ '/assets/json/table_data.json' | relative_url }}"
     });
   });
 </script>

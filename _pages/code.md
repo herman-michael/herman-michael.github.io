@@ -23,3 +23,5 @@ pretty_table: true
     </tr>
   </thead>
 </table>
+
+<a class="github-button" href="https://github.com/herman-michael/DSS-CNN" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-show-count="true" aria-label="Star herman-michael/DSS-CNN on GitHub">Star</a>

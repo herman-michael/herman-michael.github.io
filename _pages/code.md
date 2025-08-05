@@ -14,11 +14,11 @@ pretty_table: true
   data-url="{{ '/assets/json/table_data.json' | relative_url }}">
   <thead>
     <tr>
-      <th data-field="date">Date</th>
-      <th data-field="project">Project</th>
-      <th data-field="package">Package</th>
-      <th data-field="github">Github</th>
-      <th data-field="doi">DOI</th>
+      <th data-field="date" data-width="120">Date</th>
+      <th data-field="project" data-width="200">Project</th>
+      <th data-field="package" data-width="120">Package</th>
+      <th data-field="github" data-width="120">Github</th>
+      <th data-field="doi" data-width="120">DOI</th>
     </tr>
   </thead>
 </table>

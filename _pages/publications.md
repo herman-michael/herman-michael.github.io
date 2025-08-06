@@ -11,7 +11,7 @@ nav_order: 4
 
 <!-- Bibsearch Feature -->
 
-### pre-prints
+{% include bib_search.liquid %}
 
 <div class="publications">
 

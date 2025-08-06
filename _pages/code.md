@@ -8,7 +8,7 @@ nav_order: 3
 pretty_table: true
 ---
 
-## github
+### research code releases
 
 <style>
 #table th, #table td {
@@ -28,7 +28,29 @@ pretty_table: true
   </thead>
 </table>
 
-## hugging face
+
+### open source datasets
+
+<style>
+#table th, #table td {
+  border-left: none !important;
+  border-right: none !important;
+}
+</style>
+
+<table id="table" data-toggle="table" data-url="{{ '/assets/json/table_data.json' | relative_url }}">
+  <thead>
+    <tr>
+      <th data-field="date">Date</th>
+      <th data-field="project">Project</th>
+      <th data-field="package">Package</th>
+      <th data-field="github">Github</th>
+    </tr>
+  </thead>
+</table>
+
+
+### open source models
 
 <style>
 #table th, #table td {

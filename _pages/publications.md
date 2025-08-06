@@ -11,7 +11,7 @@ nav_order: 4
 
 <!-- Bibsearch Feature -->
 
-## pre-prints
+### pre-prints
 
 <div class="publications">
 
@@ -19,7 +19,7 @@ nav_order: 4
 
 </div>
 
-## theses
+### theses
 
 <div class="publications">
 
@@ -27,7 +27,7 @@ nav_order: 4
 
 </div>
 
-## datasets
+### datasets
 
 <div class="publications">
 
@@ -35,7 +35,7 @@ nav_order: 4
 
 </div>
 
-## models
+### models
 
 <div class="publications">
 

@@ -15,30 +15,6 @@ nav_order: 4
 
 <div class="publications">
 
-{% bibliography --query @*[keywords=preprint] %}
-
-</div>
-
-### theses
-
-<div class="publications">
-
-{% bibliography --query @*[keywords=thesis] %}
-
-</div>
-
-### datasets
-
-<div class="publications">
-
-{% bibliography --query @*[keywords=dataset] %}
-
-</div>
-
-### models
-
-<div class="publications">
-
-{% bibliography --query @*[keywords=models] %}
+{% bibliography %}
 
 </div>

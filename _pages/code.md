@@ -10,6 +10,13 @@ pretty_table: true
 
 ## Code
 
+<style>
+#table th, #table td {
+  border-left: none !important;
+  border-right: none !important;
+}
+</style>
+
 <table id="table" data-toggle="table" data-url="{{ '/assets/json/table_data.json' | relative_url }}">
   <thead>
     <tr>

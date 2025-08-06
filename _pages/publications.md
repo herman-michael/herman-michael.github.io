@@ -13,6 +13,16 @@ nav_order: 4
 
 <div class="publications">
 
-{% bibliography %}
+## pre-prints
+{% bibliography --query @*[keywords=preprint] %}
+
+## theses
+{% bibliography --query @*[keywords=thesis] %}
+
+## datasets
+{% bibliography --query @*[keywords=dataset] %}
+
+## models
+{% bibliography --query @*[keywords=models] %}
 
 </div>

@@ -10,13 +10,13 @@ pretty_table: true
 
 ## Code
 
-| Date       | Project                                             | Package                                                                                                                        | GitHub                                                                                                   |
-|:----------:| :-------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------- |:--------------------------------------------------------------------------------------------------------:|
-| Dec, 2020  | Federated learning via posterior averaging          | [![MichaelCurrin - badge-generator](https://img.shields.io/static/v1?label=MichaelCurrin&message=badge-generator&color=blue&logo=github)](https://github.com/MichaelCurrin/badge-generator "Go to GitHub repo") | [![stars - badge-generator](https://img.shields.io/github/stars/MichaelCurrin/badge-generator?style=social)](https://github.com/MichaelCurrin/badge-generator) |
-| Apr, 2019  | Consistent zero-shot NMT                            | [![MichaelCurrin - badge-generator](https://img.shields.io/static/v1?label=MichaelCurrin&message=badge-generator&color=blue&logo=github)](https://github.com/MichaelCurrin/badge-generator "Go to GitHub repo") | [![stars - badge-generator](https://img.shields.io/github/stars/MichaelCurrin/badge-generator?style=social)](https://github.com/MichaelCurrin/badge-generator) |
-| Jul, 2018  | Learning reciprocity in multi-agent systems         | [![MichaelCurrin - badge-generator](https://img.shields.io/static/v1?label=MichaelCurrin&message=badge-generator&color=blue&logo=github)](https://github.com/MichaelCurrin/badge-generator "Go to GitHub repo") | [![stars - badge-generator](https://img.shields.io/github/stars/MichaelCurrin/badge-generator?style=social)](https://github.com/MichaelCurrin/badge-generator) |
-| Oct, 2017  | Competitive multi-agent environments                | [![MichaelCurrin - badge-generator](https://img.shields.io/static/v1?label=MichaelCurrin&message=badge-generator&color=blue&logo=github)](https://github.com/MichaelCurrin/badge-generator "Go to GitHub repo") | [![stars - badge-generator](https://img.shields.io/github/stars/MichaelCurrin/badge-generator?style=social)](https://github.com/MichaelCurrin/badge-generator) |
-| Oct, 2016  | Keras + Gaussian Processes                          | [![MichaelCurrin - badge-generator](https://img.shields.io/static/v1?label=MichaelCurrin&message=badge-generator&color=blue&logo=github)](https://github.com/MichaelCurrin/badge-generator "Go to GitHub repo") | [![stars - badge-generator](https://img.shields.io/github/stars/MichaelCurrin/badge-generator?style=social)](https://github.com/MichaelCurrin/badge-generator) |
-| Sep, 2016  | HMMs with nonparametric emissions                   | [![MichaelCurrin - badge-generator](https://img.shields.io/static/v1?label=MichaelCurrin&message=badge-generator&color=blue&logo=github)](https://github.com/MichaelCurrin/badge-generator "Go to GitHub repo") | [![stars - badge-generator](https://img.shields.io/github/stars/MichaelCurrin/badge-generator?style=social)](https://github.com/MichaelCurrin/badge-generator) |
-| May, 2016  | Architectures Deep In Output Space                  | [![MichaelCurrin - badge-generator](https://img.shields.io/static/v1?label=MichaelCurrin&message=badge-generator&color=blue&logo=github)](https://github.com/MichaelCurrin/badge-generator "Go to GitHub repo") | [![stars - badge-generator](https://img.shields.io/github/stars/MichaelCurrin/badge-generator?style=social)](https://github.com/MichaelCurrin/badge-generator) |
-| Jan, 2015  | Supervised Transfer Sparse Coding                   | [![MichaelCurrin - badge-generator](https://img.shields.io/static/v1?label=MichaelCurrin&message=badge-generator&color=blue&logo=github)](https://github.com/MichaelCurrin/badge-generator "Go to GitHub repo") | [![stars - badge-generator](https://img.shields.io/github/stars/MichaelCurrin/badge-generator?style=social)](https://github.com/MichaelCurrin/badge-generator) |
+<table id="table" data-toggle="table" data-url="{{ '/assets/json/table_data.json' | relative_url }}">
+  <thead>
+    <tr>
+      <th data-field="date">Date</th>
+      <th data-field="project">Project</th>
+      <th data-field="package">Package</th>
+      <th data-field="github">Github</th>
+    </tr>
+  </thead>
+</table>

@@ -11,10 +11,34 @@ nav_order: 4
 
 <!-- Bibsearch Feature -->
 
-{% include bib_search.liquid %}
+### pre-prints
 
 <div class="publications">
 
-{% bibliography %}
+{% bibliography --query @*[keywords=preprint] %}
+
+</div>
+
+### theses
+
+<div class="publications">
+
+{% bibliography --query @*[keywords=thesis] %}
+
+</div>
+
+### datasets
+
+<div class="publications">
+
+{% bibliography --query @*[keywords=dataset] %}
+
+</div>
+
+### models
+
+<div class="publications">
+
+{% bibliography --query @*[keywords=models] %}
 
 </div>

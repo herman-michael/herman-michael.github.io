@@ -217,8 +217,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: Herman
-  first_name: [Michael, M.]
+  last_name: [Mancuso]
+  first_name: [Raffaele, R.]
 
   style: apa
   locale: en

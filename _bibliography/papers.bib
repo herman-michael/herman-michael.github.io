@@ -1,81 +1,57 @@
----
----
-
-Buttons:
-- `abbr`: Adds an abbreviation to the left of the entry. You can add links to these by creating a venue.yaml-file in the \_data folder and adding entries that match.
-- `abstract`: Adds an "Abs" button that expands a hidden text field when clicked to show the abstract text
-- `altmetric`: Adds an [Altmetric](https://www.altmetric.com/) badge (Note: if DOI is provided just use `true`, otherwise only add the altmetric identifier here - the link is generated automatically)
-- `annotation`: Adds a popover info message to the end of the author list that can potentially be used to clarify superscripts. HTML is allowed.
-- `arxiv`: Adds a link to the Arxiv website (Note: only add the arxiv identifier here - the link is generated automatically)
-- `bibtex_show`: Adds a "Bib" button that expands a hidden text field with the full bibliography entry
-- `blog`: Adds a "Blog" button redirecting to the specified link
-- `code`: Adds a "Code" button redirecting to the specified link
-- `dimensions`: Adds a [Dimensions](https://www.dimensions.ai/) badge (Note: if DOI or PMID is provided just use `true`, otherwise only add the Dimensions' identifier here - the link is generated automatically)
-- `html`: Inserts an "HTML" button redirecting to the user-specified link
-- `pdf`: Adds a "PDF" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
-- `poster`: Adds a "Poster" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
-- `slides`: Adds a "Slides" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
-- `supp`: Adds a "Supp" button to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
-- `video`: Adds a "Video" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/video/ directory)
-- `website`: Adds a "Website" button redirecting to the specified link
-
-Extra:
-- `preview`
-- `google_scholar_id`
-- `additional_info`
-- `award`
-- `award_name`
-- `eprint`
-- `selected`
-
-@article{herman2025a,
-  abbr             = {arXiv},
-  title            = {Sun sensor calibration algorithms: A systematic mapping and survey},
-  author           = {Michael Herman and Olivia J. Pinon Fischer and Dimitri N. Mavris},
-  abstract         = {Attitude sensors determine the spacecraft attitude through the sensing of an astronomical object, field or other phenomena. The Sun and fixed stars are the two primary astronomical sensing objects. Attitude sensors are critical components for the survival and knowledge improvement of spacecraft. Of these, sun sensors are the most common and important sensor for spacecraft attitude determination. The sun sensor measures the Sun vector in spacecraft coordinates. The sun sensor calibration process is particularly difficult due to the complex nature of the uncertainties involved. The uncertainties are small, difficult to observe, and vary spatio-temporally over the lifecycle of the sensor. In addition, the sensors are affected by numerous sources of uncertainties, including manufacturing, electrical, environmental, and interference sources. This motivates the development of advanced calibration algorithms to minimize uncertainty over the sensor lifecycle and improve accuracy. Although modeling and calibration techniques for sun sensors have been explored extensively in the literature over the past two decades, there is currently no resource that consolidates and systematically reviews this body of work. The present review proposes a systematic mapping of sun sensor modeling and calibration algorithms across a breadth of sensor configurations. It specifically provides a comprehensive survey of each methodology, along with an analysis of research gaps and recommendations for future directions in sun sensor modeling and calibration techniques.},
-  year             = {2025},
-  month            = {July},
-  archivePrefix    = {arXiv},
-  eprint           = {2507.21541},
-  primaryClass     = {cs.CV},
-  doi              = {10.48550/arXiv.2507.21541},
-  url              = {https://arxiv.org/abs/2507.21541},
-  pdf              = {https://arxiv.org/pdf/2507.21541.pdf},
-  google_scholar_id= {Tyk-4Ss8FVUC},
-  keywords         = {preprint},
-  annotation       = {Preprint hosted on arXiv},
-  selected         = {true}
+@unpublished{paper5,
+  preview = {paper5.gif},
+  title = {Does {{AI}} Affect Scientific Outcomes?},
+  author = {Mancuso, Raffaele and Munari, Federico and Toschi, Laura},
+  year = {2024},
+  abstract = {Starting from 6,671 research grants awarded by the European Research Council in the period between
+  2008 and 2016 within FP7 and H2020 Programmes, we analyze whether AI-related grants have different
+  productivity rates in terms of scientific outcomes (publications) as compared to a set of similar (not AI-
+  related) grants. We define AI-related grants as projects that develop or use AI technologies to conduct
+  scientific research. We find that the use of AI in research financed by grant funding increases the number
+  of published papers, but those papers get published in lower quality journal and are cited less, while being
+  more likely to becited by third-party patents. There is no effect of AI on the time it takes to publish the
+  first paper. Our results, thus, shed new light on how AI is diffusing in the scientific context and the type of
+  impact it can have.}
 }
 
-@article{herman2025b,
-  abbr             = {arXiv},
-  title            = {Predictive calibration for digital sun sensors using sparse submanifold convolutional neural networks},
-  author           = {Michael Herman and Olivia J. Pinon Fischer and Dimitri N. Mavris},
-  abstract         = {Recent developments in AI techniques for space applications mirror the success achieved in terrestrial applications. Machine learning, which excels in data rich environments, is particularly well suited to space-based computer vision applications, such as space optical attitude sensing. Of these sensors, digital sun sensors (DSS) are one of the most common and important sensors for spacecraft attitude determination. The main challenge in using the DSS for attitude estimation are sensor errors, which limit the overall achievable estimation accuracy. However, the traditional sun sensor calibration process is costly, slow, labor-intensive and inefficient. These limitations motivate the use of AI techniques to enable more accurate and efficient DSS calibration. The objective of this work is to develop an end-to-end predictive calibration methodology for digital sun sensors to solve 2-axis state estimates utilizing a sparse submanifold convolutional neural network (SSCNN). We find that the proposed framework can achieve state-of-the-art performance on synthetic data with a mean accuracy of 0.005° for the two sun angle estimates. Furthermore, the model is highly capable of implicitly learning complex noise patterns and handling mixed noise types, thereby greatly improving the model robustness and accuracy to real-world applications. The main contributions of this work are: (1) the first application (to our knowledge) of a CNN regression model to the problem of DSS predictive calibration, (2) the introduction of a fused end-to-end training approach for DSS calibration, (3) the creation of a publicly available physics-informed synthetic dataset and simulation for DSS training images, and (4) the evaluation of the performance of the deep learning approach for various mask configurations.},
-  year             = {2025},
-  month            = {August},
-  archivePrefix    = {arXiv},
-  eprint           = {2508.00918},
-  primaryClass     = {astro-ph.IM},
-  doi              = {10.48550/arXiv.2507.21541},
-  url              = {https://arxiv.org/abs/2508.00918},
-  pdf              = {https://arxiv.org/pdf/2508.00918.pdf},
-  google_scholar_id= {Y0pCki6q_DkC},
-  keywords         = {preprint},
-  annotation       = {Preprint hosted on arXiv},
-  selected         = {true}
+@unpublished{paper4,
+  preview = {paper4.png},
+  title = {Working from Home and Productivity: Does the Home Space Matter?},
+  author = {Migliore, Alessandra and Colombo, Massimo and {Rossi-Lamastra}, Cristina and Mancuso, Raffaele},
+  year = {2024},
+  month = sep,
+  abstract = {We examine the influence of home space design on the productivity of knowledge workers during work-from-home (WFH). Leveraging boundary theory and architecture concepts on form and function, we propose that reductions in productivity of WFH are moderated by how individuals establish physical boundaries within the home spaces, with significant variations depending on whether they share their living space with other cohabitants. As in the office, where individuals seek physical boundaries from colleagues to protect productivity, at home similar boundaries are needed to save productivity from interactions with cohabitants. We conceptualize different types of boundaries according to the convergence of function and form of the space where individuals work while WFH (i.e., workroom or non-work room), and the extent of time they spend in that room (i.e., temporary or permanent).  Treating COVID-19 pandemic as a quasi-experiment, we test our arguments by analyzing 5,170 STEM academics working in Italy and transitioning to WFH. Overall, this study highlights the importance of an underexamined element of WFH -- physical space - by shedding light on the complex interplay between home environments, and productivity. Moreover, it provides practical guidance for organizations which are striving to create an inclusive future of work for their employees.}
 }
 
-@inproceedings{zhu2022transformerbased,
-  title={Transformer-based Transform Coding},
-  author={Herman, Michael and Fischer, Olivia and Mavris, Dimitri},
-  booktitle={International Conference on Learning Representations (ICLR)},
-  year={2022},
-  url={https://openreview.net/forum?id=IDwN6xjHnK8},
-  html={https://openreview.net/forum?id=IDwN6xjHnK8},
-  selected={false},
-  abbr={ICLR},
-  tldr={A swin-transformer based auto-encoder structure is proposed that achieves SOTA in rate-distortion-complexity trade-off of image compression. It also outperforms SSF in video compression. AFAIK SwinT-ChARM is the first neural image codec that outperforms VTM in rate-distortion while with comparable decoding time on GPU.},
-  abstract={Neural data compression based on nonlinear transform coding has made great progress over the last few years, mainly due to improvements in prior models, quantization methods and nonlinear transforms. A general trend in many recent works pushing the limit of rate-distortion performance is to use ever more expensive prior models that can lead to prohibitively slow decoding. Instead, we focus on more expressive transforms that result in a better rate-distortion-computation trade-off. Specifically, we show that nonlinear transforms built on Swin-transformers can achieve better compression efficiency than transforms built on convolutional neural networks (ConvNets), while requiring fewer parameters and shorter decoding time. Paired with a compute-efficient Channel-wise Auto-Regressive Model prior, our SwinT-ChARM model outperforms VTM-12.1 by 3.68 % in BD-rate on Kodak with comparable decoding speed. In P-frame video compression setting, we are able to outperform the popular ConvNet-based scale-space-flow model by 12.35 % in BD-rate on UVG. We provide model scaling studies to verify the computational efficiency of the proposed solutions and conduct several analyses to reveal the source of coding gain of transformers over ConvNets, including better spatial decorrelation, flexible effective receptive field, and more localized response of latent pixels during progressive decoding.},
-  keywords         = {thesis}
+@article{paper3,
+  preview = {paper3.png},
+  pdf = {paper_3_WP_2023-03-06.pdf},
+  year = {2023},
+  title = {Do mission-oriented grant schemes shape the direction of science?},
+  author = {Mancuso, Raffaele and Broström, Anders},
+  journal = {Working Paper},
+  abstract = {A growing literature has examined how applying for and winning competitive project grants affects the career trajectory of scientists in terms of productivity, quality, social networks and knowledge. However, the role of grant schemes in shaping the direction of scientific inquiry remains very poorly understood. In this study, we investigate how the research output of grant recipients, rejected applicants and a set of comparable non-applicants working in the same fields relates to a set of funding calls issued by the Swedish Foundation for Strategic Research. These calls are all of the ‘request for applications’ (RFA) type – i.e. targeting a certain type of research that the funder has identified and seeks to strengthen. We analyze topic similarity between applicants’ research and the texts defining the RFA calls. Applying an optimal full matching followed by a difference-in- differences design, we find that – in line with expectations – applicants increase their topic similarity with the call more than non-applicants. However – contrary to expectations – the pace at which the research of the average grant winner shifts towards the topic of the call is not statistically different from that of non-winning applicants. These results can not be explained by differences in post-call productivity. Our findings have important implications for science policy, and for our understanding of how the formulation of RFA calls shape the direction of scientific inquiry.}
+}
+
+@article{paper2,
+  preview = {paper2.png},
+  pdf = {https://www.sciencedirect.com/science/article/pii/S0048733323000422},
+  bibtex_show = {true},
+  title = {Topic Choice, Gendered Language, and the under-Funding of Female Scholars in Mission-Oriented Research},
+  author = {Mancuso, Raffaele and Rossi-Lamastra, Cristina and Franzoni, Chiara},
+  date = {2023-07-01},
+  journal = {Research Policy},
+  volume = {52},
+  number = {6},
+  pages = {104758},
+  year = {2023},
+  issn = {0048-7333},
+  doi = {10.1016/j.respol.2023.104758},
+  url = {https://www.sciencedirect.com/science/article/pii/S0048733323000422},
+  urldate = {2023-03-28},
+  abstract = {We investigate the participation of male and female applicants to a competition for research funding, using an original dataset with detailed information on both successful and unsuccessful applicants to 21 calls by a mission-oriented funding agency. We use this information to construct a fictitious pool of 277,464 potential applicants and to model their probability to submit an application. We find that, even after controlling for productivity, quality of research, seniority, years of career discontinuity, number of prior applications, affiliation, and ethnicity, women were still less likely to apply than men. The lower likelihood of females to apply was not explained by the use of masculine language in the text of the calls. Instead, women's research interests were more distant from the topics of the calls than men's. Topic proximity fully mediated female penalization in the likelihood to apply for research funding. These results are an important heads-up, in view of the increasing focus of governments in mission-oriented programs.},
+  langid = {english},
+  keywords = {Female penalty,Grant funding,Masculine language,Mission-oriented research,Topic mismatch},
+  dimensions = {true},
+  selected = {true}
 }

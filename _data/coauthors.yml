@@ -1,11 +1,11 @@
-"michael":
+michael:
   - firstname: ["Michael", "M. A."]
     url: https://orcid.org/0009-0001-1000-4553
 
-"olivia":
+olivia:
   - firstname: ["Olivia", "O. J."]
     url: https://orcid.org/0000-0002-2233-1391
 
-"mavris":
+mavris:
   - firstname: ["Dimitri", "D. N."]
     url: https://orcid.org/0000-0001-8783-4988

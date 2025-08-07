@@ -116,7 +116,7 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=QYezVE0AAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=gMV9wf4AAAAJ", "_blank");
         },
       },{
         id: 'social-huggingface',

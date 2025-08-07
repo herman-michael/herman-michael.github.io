@@ -52,3 +52,11 @@ An up-to-date list is available on [Google Scholar](https://scholar.google.com/c
 {% bibliography --query @*[keywords=model] %}
 
 </div>
+
+### software
+
+<div class="publications">
+
+{% bibliography --query @*[keywords=software] %}
+
+</div>

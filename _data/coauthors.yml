@@ -1,8 +1,11 @@
-Herman:
-  url: https://orcid.org/0009-0001-1000-4553
+"Zhu":
+  - firstname: ["Yinhao", "Yinhao*"]
+    url: https://orcid.org/0009-0001-1000-4553
 
-Fischer:
-  url: https://orcid.org/0000-0002-2233-1391
+"Cohen":
+  - firstname: ["Taco", "Taco S"]
+    url: https://orcid.org/0000-0002-2233-1391
 
-Mavris:
-  url: https://orcid.org/0000-0001-8783-4988
+"Lu":
+  - firstname: ["Yadong", "Yadong*"]
+    url: https://orcid.org/0000-0001-8783-4988

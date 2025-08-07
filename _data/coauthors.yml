@@ -1,27 +1,11 @@
-"toschi":
-  - firstname: ["Laura", "L."]
-    url: https://www.unibo.it/sitoweb/laura.toschi
+"herman":
+  - firstname: ["Michael", "M."]
+    url: https://orcid.org/0009-0001-1000-4553
 
-"munari":
-  - firstname: ["Federico", "F."]
-    url: https://www.unibo.it/sitoweb/federico.munari
+"fischer":
+  - firstname: ["Olivia", "O. J."]
+    url: https://orcid.org/0000-0002-2233-1391
 
-"migliore":
-  - firstname: ["Alessandra", "A."]
-    url: https://www.efi.polimi.it/who-we-are/#awsm-member-116-1004
-
-"colombo":
-  - firstname: ["Massimo", "M."]
-    url: https://www.som.polimi.it/professor/massimo-gaetano-arturo-colombo/
-
-"rossi-lamastra":
-  - firstname: ["Cristina", "C."]
-    url: https://www.efi.polimi.it/who-we-are/#awsm-member-116-397
-
-"brostrom":
-  - firstname: ["Anders", "A."]
-    url: https://www.kth.se/profile/andbr/
-
-"franzoni":
-  - firstname: ["Chiara", "C."]
-    url: https://www.efi.polimi.it/chiara-franzoni/
+"mavris":
+  - firstname: ["Dimitri", "D. N."]
+    url: https://orcid.org/0000-0001-8783-4988

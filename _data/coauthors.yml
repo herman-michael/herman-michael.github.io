@@ -2,10 +2,10 @@
   - firstname: ["Michael", "M."]
     url: https://orcid.org/0009-0001-1000-4553
 
-"fischer":
-  - firstname: ["Olivia", "O. J."]
+"pinon-fischer":
+  - firstname: ["Olivia J.", "O. J."]
     url: https://orcid.org/0000-0002-2233-1391
 
 "mavris":
-  - firstname: ["Dimitri", "D. N."]
+  - firstname: ["Dimitri N.", "D. N."]
     url: https://orcid.org/0000-0001-8783-4988

@@ -13,15 +13,15 @@ nav_order: 4
 
 An up-to-date list is available on [Google Scholar](https://scholar.google.com/citations?user=gMV9wf4AAAAJ).
 
-### pre-prints
-
 <div class="publications">
+
+## pre-prints
 
 {% bibliography --query @*[keywords=preprint] %}
 
 </div>
 
-### PhD thesis
+## PhD thesis
 
 <div class="publications">
 
@@ -29,7 +29,7 @@ An up-to-date list is available on [Google Scholar](https://scholar.google.com/c
 
 </div>
 
-### other theses
+## other theses
 
 <div class="publications">
 
@@ -37,7 +37,7 @@ An up-to-date list is available on [Google Scholar](https://scholar.google.com/c
 
 </div>
 
-### datasets
+## datasets
 
 <div class="publications">
 
@@ -45,7 +45,7 @@ An up-to-date list is available on [Google Scholar](https://scholar.google.com/c
 
 </div>
 
-### models
+## models
 
 <div class="publications">
 
@@ -53,7 +53,7 @@ An up-to-date list is available on [Google Scholar](https://scholar.google.com/c
 
 </div>
 
-### software
+## software
 
 <div class="publications">
 

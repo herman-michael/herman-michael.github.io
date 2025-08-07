@@ -14,11 +14,8 @@ nav_order: 4
 An up-to-date list is available on [Google Scholar](https://scholar.google.com/citations?user=gMV9wf4AAAAJ).
 
 <div class="publications">
-
-## pre-prints
-
+<h2>preprints</h2>
 {% bibliography --query @*[keywords=preprint] %}
-
 </div>
 
 ## PhD thesis

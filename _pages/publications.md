@@ -19,11 +19,19 @@ nav_order: 4
 
 </div>
 
-### theses
+### PhD theses
 
 <div class="publications">
 
-{% bibliography --query @*[keywords=thesis] %}
+{% bibliography --query @*[keywords=phdthesis] %}
+
+</div>
+
+### other theses
+
+<div class="publications">
+
+{% bibliography --query @*[keywords=otherthesis] %}
 
 </div>
 

@@ -11,6 +11,8 @@ nav_order: 4
 
 <!-- Bibsearch Feature -->
 
+An up-to-date list is available on [Google Scholar](https://scholar.google.com/citations?user=gMV9wf4AAAAJ).
+
 ### pre-prints
 
 <div class="publications">
@@ -19,7 +21,7 @@ nav_order: 4
 
 </div>
 
-### PhD theses
+### PhD thesis
 
 <div class="publications">
 
@@ -47,6 +49,6 @@ nav_order: 4
 
 <div class="publications">
 
-{% bibliography --query @*[keywords=models] %}
+{% bibliography --query @*[keywords=model] %}
 
 </div>

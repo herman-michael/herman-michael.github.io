@@ -874,7 +874,6 @@ footer.sticky-bottom {
 }
 
 // Code
-
 .code {
   margin-top: 2rem;
 
@@ -894,6 +893,19 @@ footer.sticky-bottom {
       font-size: 1.5rem;
     }
   }
+}
+
+// Tableau
+.tableau-outer {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+.tableau-wrapper {
+  max-width: 1500px;
+  width: 100%;
+  aspect-ratio: 5 / 3;
+  margin: 0 auto;
 }
 
 // Rouge Color Customization

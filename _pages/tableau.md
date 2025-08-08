@@ -11,10 +11,10 @@ pretty_table: true
 <div class="code">
   <h2>Open Source Models</h2>
 
-  <div class="container-fluid">
-    <div style="max-width:1500px; width:100%; aspect-ratio: 5 / 3; margin: 0 auto;">
-      <tableau-viz 
-        id="tableauViz" 
+  <div class="tableau-outer">
+    <div class="tableau-wrapper">
+      <tableau-viz
+        id="tableauViz"
         src="https://public.tableau.com/views/SunSensorCalibrationAlgorithms/Dashboard"
         toolbar="bottom"
         hide-tabs="true">
@@ -22,4 +22,3 @@ pretty_table: true
     </div>
   </div>
 </div>
-

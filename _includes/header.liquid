@@ -24,6 +24,7 @@
         <!-- Social Icons -->
         <div class="navbar-brand social">{% include social.liquid %}</div>
       {% endif %}
+
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed ml-auto"
@@ -44,14 +45,7 @@
         <ul class="navbar-nav ml-auto flex-nowrap">
           {% for page in site.pages %}
             {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
-          {% endfor %}
-
-          <!-- CV link -->
-          <li class="nav-item">
-            <a class="nav-link" href="{{ '/assets/pdf/CV_Herman.pdf' | prepend: site.baseurl | prepend: site.url }}">CV</a>
-          </li>
-
-          <!-- About -->
+          -->
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
               {{- about_title }}
@@ -65,7 +59,12 @@
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
             {% if p.nav and p.autogen == null %}
-              {% if p.dropdown %}
+              {% if p.permalink == '/cv/' %}
+                <!-- Static CV link replacing dynamic /cv/ page -->
+                <li class="nav-item">
+                  <a class="nav-link" href="/assets/pdf/CV_Herman.pdf" target="_blank" rel="noopener">cv</a>
+                </li>
+              {% elsif p.dropdown %}
                 {% assign has_active_child = false %}
                 {% for child in p.children %}
                   {% if page.title == child.title %}
@@ -122,6 +121,7 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
@@ -130,8 +130,9 @@
               </button>
             </li>
           {% endif %}
+
           {% if site.enable_darkmode %}
-            <!-- Toogle theme mode -->
+            <!-- Toggle theme mode -->
             <li class="toggle-container">
               <button id="light-toggle" title="Change theme">
                 <i class="ti ti-sun-moon" id="light-toggle-system"></i>
@@ -144,6 +145,7 @@
       </div>
     </div>
   </nav>
+
   {% if site.enable_progressbar %}
     <!-- Scrolling Progress Bar -->
     <progress id="progress" value="0">

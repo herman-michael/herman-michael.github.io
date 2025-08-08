@@ -695,7 +695,7 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 0;
+  margin-top: 2rem;
 
   h1 {
     color: var(--global-theme-color);
@@ -719,6 +719,7 @@ footer.sticky-bottom {
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
+    margin-bottom: -0.5rem; 
     text-align: right;
   }
 

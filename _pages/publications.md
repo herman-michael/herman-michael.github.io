@@ -19,11 +19,6 @@ An up-to-date list is available on [Google Scholar](https://scholar.google.com/c
 </div>
 
 <div class="publications">
-<h2>theses</h2>
-{% bibliography --query @*[keywords=thesis] %}
-</div>
-
-<div class="publications">
 <h2>datasets</h2>
 {% bibliography --query @*[keywords=dataset] %}
 </div>
@@ -36,4 +31,9 @@ An up-to-date list is available on [Google Scholar](https://scholar.google.com/c
 <div class="publications">
 <h2>software</h2>
 {% bibliography --query @*[keywords=software] %}
+</div>
+
+<div class="publications">
+<h2>theses</h2>
+{% bibliography --query @*[keywords=thesis] %}
 </div>

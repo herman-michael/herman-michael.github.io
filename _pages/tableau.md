@@ -4,7 +4,7 @@ permalink: /tableau/
 title: tableau
 description: tableau public
 nav: true
-nav_order: 7
+nav_order: 6
 pretty_table: true
 ---
 

@@ -4,7 +4,7 @@ permalink: /datasets/
 title: datasets
 description: open source datasets
 nav: true
-nav_order: 5
+nav_order: 4
 pretty_table: true
 ---
 

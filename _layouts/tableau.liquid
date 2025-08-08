@@ -13,6 +13,14 @@
       <meta http-equiv="refresh" content="3; url={{ redirect }}">
     {% endif %}
     {% include head.liquid %}
+    <style>
+      /* Remove default container padding */
+      .full-width {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
   </head>
 
   <!-- Body -->
@@ -21,20 +29,20 @@
     {% include header.liquid %}
 
     <!-- Content -->
-    <div class="container mt-5" role="main">
+    <div class="full-width" role="main">
       {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == 'right' %}
-          <div class="row">
+          <div class="row no-gutters">
             <!-- main content area -->
             <div class="col-sm-9">{{ content }}</div>
-            <!-- sidebar, which will move to the top on a small screen -->
+            <!-- sidebar -->
             <div class="col-sm-3">
               <nav id="toc-sidebar" class="sticky-top"></nav>
             </div>
           </div>
         {% else %}
-          <div class="row">
-            <!-- sidebar, which will move to the top on a small screen -->
+          <div class="row no-gutters">
+            <!-- sidebar -->
             <div class="col-sm-3">
               <nav id="toc-sidebar" class="sticky-top"></nav>
             </div>
@@ -51,6 +59,7 @@
     {% include footer.liquid %}
 
     <!-- JavaScripts -->
+    <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.js"></script>
     {% include scripts.liquid %}
   </body>
 </html>

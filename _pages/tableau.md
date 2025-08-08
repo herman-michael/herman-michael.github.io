@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_tableau
 permalink: /tableau/
 title: tableau
 description: tableau public
@@ -11,14 +11,11 @@ pretty_table: true
 <div class="code">
   <h2>Open Source Models</h2>
 
-  <div class="tableau-outer">
-    <div class="tableau-wrapper">
-      <tableau-viz
-        id="tableauViz"
-        src="https://public.tableau.com/views/SunSensorCalibrationAlgorithms/Dashboard"
-        toolbar="bottom"
-        hide-tabs="true">
-      </tableau-viz>
-    </div>
-  </div>
+<tableau-viz
+  id="tableauViz"
+  src="https://public.tableau.com/views/SunSensorCalibrationAlgorithms/Dashboard"
+  toolbar="bottom"
+  hide-tabs="true">
+</tableau-viz>
+
 </div>

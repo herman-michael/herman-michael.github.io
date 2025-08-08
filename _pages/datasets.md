@@ -1,15 +1,15 @@
 ---
 layout: page
-permalink: /code/
-title: code
-description: research code releases & open source projects
+permalink: /datasets/
+title: datasets
+description: open source datasets
 nav: true
-nav_order: 4
+nav_order: 5
 pretty_table: true
 ---
 
 <div class="code">
-<h2>research code releases</h2>
+<h2>open source datasets</h2>
 <style>
 #table th, #table td {
   border-left: none !important;

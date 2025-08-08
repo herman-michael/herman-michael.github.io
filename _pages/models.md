@@ -1,15 +1,15 @@
 ---
 layout: page
-permalink: /code/
-title: code
-description: research code releases & open source projects
+permalink: /models/
+title: models
+description: open source models
 nav: true
-nav_order: 4
+nav_order: 6
 pretty_table: true
 ---
 
 <div class="code">
-<h2>research code releases</h2>
+<h2>open source models</h2>
 <style>
 #table th, #table td {
   border-left: none !important;

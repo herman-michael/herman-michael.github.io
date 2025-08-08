@@ -17,7 +17,7 @@ pretty_table: true
 }
 </style>
 
-<table id="table" data-toggle="table" data-url="{{ '/assets/json/table_data.json' | relative_url }}">
+<table id="table" data-toggle="table" data-url="{{ '/assets/json/table_code.json' | relative_url }}">
   <thead>
     <tr>
       <th data-field="date">Date</th>

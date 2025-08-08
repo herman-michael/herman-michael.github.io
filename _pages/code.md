@@ -2,7 +2,7 @@
 layout: page
 permalink: /code/
 title: code
-description: code page
+description: research code releases & open source projects
 nav: true
 nav_order: 3
 pretty_table: true

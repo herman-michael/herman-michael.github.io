@@ -8,8 +8,8 @@ nav_order: 3
 pretty_table: true
 ---
 
-### research code releases
-
+<div class="code">
+<h2>research code releases</h2>
 <style>
 #table th, #table td {
   border-left: none !important;
@@ -27,6 +27,7 @@ pretty_table: true
     </tr>
   </thead>
 </table>
+</div>
 
 
 ### open source datasets

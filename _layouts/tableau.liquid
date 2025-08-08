@@ -26,7 +26,6 @@
         padding: 0;
       }
     </style>
-    https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.js
   </head>
 
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
@@ -59,6 +58,7 @@
     {% endif %}
 
     {% include footer.liquid %}
+    <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.js"></script>
     {% include scripts.liquid %}
   </body>
 </html>

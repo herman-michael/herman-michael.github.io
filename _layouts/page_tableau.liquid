@@ -9,17 +9,32 @@ layout: tableau
   </style>
 {% endif %}
 
-<header class="tableau-fullpage">
-  {{ content }}
-</article>
+<!-- Standard content area (headings, text, etc.) -->
+<div class="container mt-5">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
 
-{% if page.related_publications %}
-  <h2>References</h2>
-  <div class="publications">
-    {% bibliography --cited_in_order %}
+  <article>
+    {{ content }}
+  </article>
+
+  {% if page.related_publications %}
+    <h2>References</h2>
+    <div class="publications">
+      {% bibliography --cited_in_order %}
+    </div>
+  {% endif %}
+
+  {% if site.giscus and page.giscus_comments %}
+    {% include giscus.liquid %}
+  {% endif %}
+</div>
+
+<!-- Full-width Tableau embed -->
+{% if page.tableau_embed %}
+  <div class="tableau-full-width">
+    {{ page.tableau_embed }}
   </div>
-{% endif %}
-
-{% if site.giscus and page.giscus_comments %}
-  {% include giscus.liquid %}
 {% endif %}

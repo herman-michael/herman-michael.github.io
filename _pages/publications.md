@@ -18,42 +18,22 @@ An up-to-date list is available on [Google Scholar](https://scholar.google.com/c
 {% bibliography --query @*[keywords=preprint] %}
 </div>
 
-## PhD thesis
-
 <div class="publications">
-
-{% bibliography --query @*[keywords=phdthesis] %}
-
+<h2>theses</h2>
+{% bibliography --query @*[keywords=thesis] %}
 </div>
 
-## other theses
-
 <div class="publications">
-
-{% bibliography --query @*[keywords=otherthesis] %}
-
-</div>
-
-## datasets
-
-<div class="publications">
-
+<h2>datasets</h2>
 {% bibliography --query @*[keywords=dataset] %}
-
 </div>
 
-## models
-
 <div class="publications">
-
+<h2>models</h2>
 {% bibliography --query @*[keywords=model] %}
-
 </div>
 
-## software
-
 <div class="publications">
-
+<h2>software</h2>
 {% bibliography --query @*[keywords=software] %}
-
 </div>

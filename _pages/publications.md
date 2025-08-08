@@ -15,25 +15,25 @@ An up-to-date list is available on [Google Scholar](https://scholar.google.com/c
 
 <div class="publications">
 <h2>preprints</h2>
-{% bibliography --query @*[keywords=preprint] %}
+{% bibliography --query @*[keywords=preprint] --group_by none %}
 </div>
 
 <div class="publications">
 <h2>datasets</h2>
-{% bibliography --query @*[keywords=dataset] %}
+{% bibliography --query @*[keywords=dataset] --group_by none %}
 </div>
 
 <div class="publications">
 <h2>models</h2>
-{% bibliography --query @*[keywords=model] %}
+{% bibliography --query @*[keywords=model] --group_by none %}
 </div>
 
 <div class="publications">
 <h2>software</h2>
-{% bibliography --query @*[keywords=software] %}
+{% bibliography --query @*[keywords=software] --group_by none %}
 </div>
 
 <div class="publications">
 <h2>theses</h2>
-{% bibliography --query @*[keywords=thesis] %}
+{% bibliography --query @*[keywords=thesis] --group_by none %}
 </div>

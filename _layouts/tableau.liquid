@@ -1,52 +1,48 @@
 <!doctype html>
 <html lang="{{ site.lang }}">
-  <!-- Head -->
   <head>
     {% if page.redirect %}
-      {% if page.redirect == true %}
-        {% assign redirect = site.baseurl | append: '/' %}
-      {% elsif page.redirect contains '://' %}
-        {% assign redirect = page.redirect %}
-      {% else %}
-        {% assign redirect = page.redirect | relative_url %}
-      {% endif %}
+      {% assign redirect = page.redirect contains '://' 
+        | default: page.redirect | relative_url %}
       <meta http-equiv="refresh" content="3; url={{ redirect }}">
     {% endif %}
     {% include head.liquid %}
     <style>
-      /* Remove default container padding */
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+      }
       .full-width {
         width: 100%;
         margin: 0;
         padding: 0;
       }
+      .tableau-full-width {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+      }
     </style>
+    https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.js
   </head>
 
-  <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
-    <!-- Header -->
     {% include header.liquid %}
 
-    <!-- Content -->
-    <div class="full-width" role="main">
+    <!-- Constrained content area -->
+    <div class="container mt-5" role="main">
       {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == 'right' %}
-          <div class="row no-gutters">
-            <!-- main content area -->
+          <div class="row">
             <div class="col-sm-9">{{ content }}</div>
-            <!-- sidebar -->
-            <div class="col-sm-3">
-              <nav id="toc-sidebar" class="sticky-top"></nav>
-            </div>
+            <div class="col-sm-3"><nav id="toc-sidebar" class="sticky-top"></nav></div>
           </div>
         {% else %}
-          <div class="row no-gutters">
-            <!-- sidebar -->
-            <div class="col-sm-3">
-              <nav id="toc-sidebar" class="sticky-top"></nav>
-            </div>
-            <!-- main content area -->
+          <div class="row">
+            <div class="col-sm-3"><nav id="toc-sidebar" class="sticky-top"></nav></div>
             <div class="col-sm-9">{{ content }}</div>
           </div>
         {% endif %}
@@ -55,11 +51,14 @@
       {% endif %}
     </div>
 
-    <!-- Footer -->
-    {% include footer.liquid %}
+    <!-- Full-width Tableau embed -->
+    {% if page.tableau_embed %}
+      <div class="tableau-full-width">
+        {{ page.tableau_embed }}
+      </div>
+    {% endif %}
 
-    <!-- JavaScripts -->
-    <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.js"></script>
+    {% include footer.liquid %}
     {% include scripts.liquid %}
   </body>
 </html>

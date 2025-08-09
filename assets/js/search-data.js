@@ -133,6 +133,13 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=gMV9wf4AAAAJ", "_blank");
         },
       },{
+        id: 'social-zenodo_id',
+        title: 'Zenodo_id',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
         id: 'social-huggingface',
         title: 'Huggingface',
         section: 'Socials',

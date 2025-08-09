@@ -45,6 +45,7 @@ scholar_userid: gMV9wf4AAAAJ # your Google Scholar ID
 # x_username: # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
+zenodo_id: "0009-0001-1000-4553"
 huggingface: # can be any name here other than the ones already defined above
   logo: https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo-pirate.svg # can be png, svg, jpg
   title: Hugging Face

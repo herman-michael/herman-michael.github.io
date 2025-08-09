@@ -28,3 +28,5 @@ pretty_table: true
   </thead>
 </table>
 </div>
+
+*For more open source contributions:* <a class="github-button" href="https://github.com/herman-michael" data-color-scheme="no-preference: light; light: light; dark: dark;" data-show-count="true" aria-label="Follow @herman-michael on GitHub">Follow @herman-michael</a>

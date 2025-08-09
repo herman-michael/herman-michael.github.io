@@ -22,8 +22,8 @@ pretty_table: true
     <tr>
       <th data-field="date">Date</th>
       <th data-field="project">Project</th>
-      <th data-field="package">Package</th>
-      <th data-field="repo">Github</th>
+      <th data-field="zenodo">Zenodo</th>
+      <th data-field="hf">Hugging Face</th>
     </tr>
   </thead>
 </table>

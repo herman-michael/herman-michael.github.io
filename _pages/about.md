@@ -4,7 +4,9 @@ title: about
 permalink: /
 subtitle: <p>
   <strong>IT</strong> @ 
-  <a href="https://coe.gatech.edu/" target="_blank">GT - College of Engineeringef="https://www.asdl.gatech.edu/" target="_blank">ASDL</p>
+  <a href="https://coe.gatech.edu/" target="_blank">GT - College of Engineering
+  <strong>Previously:</strong> PhD @
+  <a href="https://www.asdl.gatech.edu/" target="_blank">ASDL</p>
 
 profile:
   align: right

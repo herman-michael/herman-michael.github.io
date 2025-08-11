@@ -20,6 +20,6 @@ tableau_embed: |
   </div>
 ---
 
-<div class="code">
+<div class="publications">
   {% bibliography --query @herman2025a --group_by none %}
 </div>

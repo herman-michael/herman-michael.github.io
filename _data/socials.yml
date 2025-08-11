@@ -46,11 +46,8 @@ scholar_userid: gMV9wf4AAAAJ # your Google Scholar ID
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 zenodo_id: "0009-0001-1000-4553"
+tableau_id: herman.michael
 huggingface: # can be any name here other than the ones already defined above
   logo: https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo-pirate.svg # can be png, svg, jpg
   title: Hugging Face
   url: https://huggingface.co/herman-michael
-tableau: # can be any name here other than the ones already defined above
-  logo: https://www.svgrepo.com/download/327399/logo-tableau.svg # can be png, svg, jpg
-  title: Tableau Public
-  url: https://public.tableau.com/app/profile/herman.michael/vizzes

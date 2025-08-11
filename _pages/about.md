@@ -2,7 +2,9 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <p>
+  <strong>IT</strong> @ 
+  <a href="https://coe.gatech.edu/" target="_blank">GT - College of Engineeringef="https://www.asdl.gatech.edu/" target="_blank">ASDL</p>
 
 profile:
   align: right

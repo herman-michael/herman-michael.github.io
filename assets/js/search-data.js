@@ -154,11 +154,11 @@ ninja.data = [{
           window.open("", "_blank");
         },
       },{
-        id: 'social-huggingface',
-        title: 'Huggingface',
+        id: 'social-hf_id',
+        title: 'Hf_id',
         section: 'Socials',
         handler: () => {
-          window.open("https://huggingface.co/herman-michael", "_blank");
+          window.open("", "_blank");
         },
       },{
       id: 'light-theme',

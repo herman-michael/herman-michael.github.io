@@ -5,7 +5,7 @@ permalink: /
 subtitle: <p>
   <strong>IT</strong> @ 
   <a href="https://coe.gatech.edu/" target="_blank">GT - College of Engineering</a>
-  <strong>Previously:</strong> PhD @
+  &nbsp;&bull;&nbsp; <strong>Previously:</strong> PhD @
   <a href="https://www.asdl.gatech.edu/" target="_blank">ASDL</a></p>
 
 profile:

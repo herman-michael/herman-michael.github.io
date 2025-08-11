@@ -95,7 +95,7 @@
     {% when 'zenodo_id' %}
       <a href="https://zenodo.org/search?q=creators.orcid%3A{{ social[1] }}" title="Zenodo"><i class="ai ai-zenodo"></i></a>
     {% when 'tableau_id' %}
-      <a href="https://public.tableau.com/app/profile/{{ social[1] }}" title="Tableau"><span class="famicons--logo-tableau"></span></a>
+      <a href="https://public.tableau.com/app/profile/{{ social[1] }}" target="_blank" title="Tableau"><i class="si si-tableau"></i></a>
     {% else %}
       <a href="{{ social[1].url }}" title="{{ social[1].title }}">
         {% assign file_ext = social[1].logo | split: '.' | last %}

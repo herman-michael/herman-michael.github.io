@@ -48,7 +48,4 @@ scholar_userid: gMV9wf4AAAAJ # your Google Scholar ID
 arxiv_id: herman_m_2
 zenodo_id: "0009-0001-1000-4553"
 tableau_id: herman.michael
-huggingface: # can be any name here other than the ones already defined above
-  logo: https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo-pirate.svg # can be png, svg, jpg
-  title: Hugging Face
-  url: https://huggingface.co/herman-michael
+hf_id: herman-michael

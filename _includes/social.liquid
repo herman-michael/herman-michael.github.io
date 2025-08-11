@@ -98,6 +98,8 @@
       <a href="https://public.tableau.com/app/profile/{{ social[1] }}" target="_blank" title="Tableau"><i class="si si-tableau"></i></a>
     {% when 'arxiv_id' %}
       <a href="https://arxiv.org/a/{{ social[1] }}" target="_blank" title="arxiv"><i class="si si-arxiv"></i></a>
+    {% when 'hf_id' %}
+      <a href="https://huggingface.co/{{ social[1] }}" target="_blank" title="huggingface"><i class="simple-icons--huggingface"></i></a>
     {% else %}
       <a href="{{ social[1].url }}" title="{{ social[1].title }}">
         {% assign file_ext = social[1].logo | split: '.' | last %}

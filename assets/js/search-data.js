@@ -140,18 +140,18 @@ ninja.data = [{
           window.open("", "_blank");
         },
       },{
+        id: 'social-tableau_id',
+        title: 'Tableau_id',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
         id: 'social-huggingface',
         title: 'Huggingface',
         section: 'Socials',
         handler: () => {
           window.open("https://huggingface.co/herman-michael", "_blank");
-        },
-      },{
-        id: 'social-tableau',
-        title: 'Tableau',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://public.tableau.com/app/profile/herman.michael/vizzes", "_blank");
         },
       },{
       id: 'light-theme',

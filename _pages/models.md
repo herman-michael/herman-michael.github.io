@@ -31,4 +31,4 @@ pretty_table: true
 
 <div style="margin-top: 40px;"></div>
 
-*For more open source model contributions:* <a class="github-button" href="https://github.com/herman-michael" data-color-scheme="no-preference: light; light: light; dark: light;" data-show-count="true" aria-label="Follow @herman-michael on GitHub">Follow @herman-michael</a>
+*For more open source model contributions:* [![Generic badge](https://img.shields.io/badge/follow%20on-zenodo-blue.svg)](https://zenodo.org/search?q=creators.orcid%3A0009-0001-1000-4553) and [![Follow me on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/follow-me-on-HF-sm.svg)](https://huggingface.co/herman-michael)

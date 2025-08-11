@@ -21,5 +21,5 @@ tableau_embed: |
 ---
 
 <div class="code">
-  <h2>Open Source Models</h2>
+  {% bibliography --query @herman2025a --group_by none %}
 </div>

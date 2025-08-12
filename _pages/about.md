@@ -24,13 +24,14 @@ announcements:
 
 ---
 
+<div class="code">
+  <h3>Welcome!</h3>
+</div>
 
-<h3>Welcome!</h3>
-
-I’m a Senior IT Support Engineer at the Georgia Institute of Technology.
+I’m a Senior IT Support Engineer at the <a href="https://www.gatech.edu/" target="_blank">Georgia Institute of Technology</a>.
 
 My research interests lie at the intersection of <code class="language-plaintext highlighter-rouge">AI x Defense</code>. I focus on vision-based machine learning applications, with a particular emphasis on deep learning, robust and explainable AI, state estimation, and data fusion. I’m passionate about advancing AI technologies for aerospace and defense systems.
 
-Previously, I earned my PhD in Aerospace Engineering from the Aerospace Systems Design Laboratory (ASDL) at Georgia Tech, where I was advised by Dimitri Mavris and worked on vision-based deep learning approaches for satellite attitude sensors. During this time I published a survey on calibration algorithms for space attitude sensors, developed novel algorithms, released large-scale image datasets, and contributed to open-source tools for space sensor calibration.
+Previously, I earned my PhD in <a href="https://ae.gatech.edu/" target="_blank">Aerospace Engineering</a> from the <a href="https://www.asdl.gatech.edu/" target="_blank">Aerospace Systems Design Laboratory (ASDL)</a> at <a href="https://www.gatech.edu/" target="_blank">Georgia Tech</a>, where I was advised by <a href="https://www.asdl.gatech.edu/faculty/dimitri_mavris/" target="_blank">Dimitri Mavris</a> and worked on <a href="https://hdl.handle.net/1853/77785/" target="_blank">vision-based deep learning approaches for satellite attitude sensors</a>. During this time I <a href="https://herman-michael.github.io/publications/" target="_blank">published</a> a survey on calibration algorithms for space attitude sensors, developed novel <a href="https://herman-michael.github.io/models/" target="_blank">algorithms</a>, released large-scale image <a href="https://herman-michael.github.io/datasets/" target="_blank">datasets</a>, and contributed to <a href="https://herman-michael.github.io/code/" target="_blank">open-source tools</a> for space sensor calibration.
 
-In my free time, I enjoy hiking, competitive FPS, and working on AI side-projects.
+In my free time, I enjoy hiking, <a href="https://app.voltaic.gg/d503/" target="_blank">competitive FPS</a>, and working on AI <a href="https://herman-michael.github.io/projects/" target="_blank">side-projects</a>.

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<a href="https://gatech.meritpages.com/stories/Michael-Herman-Receives-Degree-From-Georgia-Tech/162880493/" target="_blank">I earned a Doctor of Philosophy with a major in Aerospace Engineering from the Georgia Institute of Technology!</a>
+<a href="https://gatech.meritpages.com/stories/Michael-Herman-Receives-Degree-From-Georgia-Tech/162880493/" target="_blank">I graduated with a Doctor of Philosophy</a> in Aerospace Engineering from the Georgia Institute of Technology!

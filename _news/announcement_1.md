@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<a href="https://www.gatech.edu/" target="_blank">I successfully defended my doctoral thesis: "Predictive calibration for digital sun sensors using sparse submanifold convolutional neural networks"!</a>
+<a href="https://grad.gatech.edu/events/phd-defense-michael-herman" target="_blank">I successfully defended my doctoral thesis:</a> "Predictive calibration for digital sun sensors using sparse submanifold convolutional neural networks"!

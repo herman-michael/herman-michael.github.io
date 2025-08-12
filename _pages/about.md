@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: <p>
   <strong>IT</strong> @ 
-  <a href="https://coe.gatech.edu/" target="_blank">GT - College of Engineering</a>
+  <a href="https://coe.gatech.edu/" target="_blank">Georgia Tech - College of Engineering</a>
   &nbsp;&bull;&nbsp; <strong>Previously:</strong> PhD @
   <a href="https://www.asdl.gatech.edu/" target="_blank">ASDL</a></p>
 
@@ -25,9 +25,12 @@ announcements:
 ---
 
 
+<h3>Welcome!</h3>
 
+I’m a Senior IT Support Engineer at the Georgia Institute of Technology.
 
+My research interests lie at the intersection of <code class="language-plaintext highlighter-rouge">AI x Defense</code>. I focus on vision-based machine learning applications, with a particular emphasis on deep learning, robust and explainable AI, state estimation, and data fusion. I’m passionate about advancing AI technologies for aerospace and defense systems.
 
-As a researcher, my work focuses on the intersection of <code class="language-plaintext highlighter-rouge">AI x Defense</code>. I’m broadly interested in robust and explainable AI, sparse convolutional architectures, and multi-sensor fusion. I’m passionate about advancing AI for aerospace and defense applications.
+Previously, I earned my PhD in Aerospace Engineering from the Aerospace Systems Design Laboratory (ASDL) at Georgia Tech, where I was advised by Dimitri Mavris and worked on vision-based deep learning approaches for satellite attitude sensors. During this time I published a survey on calibration algorithms for space attitude sensors, developed novel algorithms, released large-scale image datasets, and contributed to open-source tools for space sensor calibration.
 
-Previously, I completed my PhD in Aerospace Engineering from the Aerospace Systems Design Laboratory (ASDL) at Georgia Tech, where I was advised by Dimitri Mavris and worked on vision-based deep learning approaches for satellite attitude sensors.
+In my free time, I enjoy hiking, competitive FPS, and working on AI side-projects.

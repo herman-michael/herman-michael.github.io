@@ -49,16 +49,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-i-successfully-defended-my-doctoral-thesis-predictive-calibration-for-digital-sun-sensors-using-sparse-submanifold-convolutional-neural-networks",
+          title: 'I successfully defended my doctoral thesis: “Predictive calibration for digital sun sensors using...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-i-joined-the-georgia-tech-college-of-engineering-as-a-senior-it-support-engineer",
+          title: 'I joined the Georgia Tech - College of Engineering as a Senior IT...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2.html";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-i-earned-a-doctor-of-philosophy-with-a-major-in-aerospace-engineering-from-the-georgia-institute-of-technology",
+          title: 'I earned a Doctor of Philosophy with a major in Aerospace Engineering from...',
           description: "",
           section: "News",},{id: "projects-sun-sensor-calibration-algorithm-survey",
           title: 'Sun Sensor Calibration Algorithm Survey',

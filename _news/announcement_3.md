@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I joined the <a href="https://coe.gatech.edu/" target="_blank">Georgia Tech - College of Engineering</a> as a <strong>Senior IT Support Engineer</strong>!
+I joined the <a href="https://coe.gatech.edu/" target="_blank">Georgia Tech - College of Engineering</a> as a Senior IT Support Engineer!
